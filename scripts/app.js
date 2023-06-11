@@ -4,7 +4,7 @@ document.getElementById('searchButton').addEventListener('click', () => {
 });
 
 function getWeatherData(city) {
-    let apiKey = 'your_api_key';
+    let apiKey = '02d5a83f0206421e3e7f5d0d26bf3351';
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     fetch(url)
